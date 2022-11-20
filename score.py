@@ -10,14 +10,14 @@ function_main()
   determine_status(random_score)
 
 function determine_status(score)
-    if score < 0 or score > 100
-        display "Invalid score"
-    else score >= 90
-        display "Excellent"
-    else score >= 50
-        display "Pass"
-    else
-        print("Bad")
+  if score < 0 or score > 100
+    display "Invalid score"
+  else score >= 90
+    display "Excellent"
+  else score >= 50
+    display "Pass"
+  else
+    print("Bad")
 """
 
 import random

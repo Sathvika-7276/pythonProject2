@@ -1,3 +1,19 @@
+"""
+function main()
+  get password
+  print_asterisk(password)
+
+function get_password()
+  get user_password
+  while len(user_password) < PASSWORD_LENGTH
+    display "Error! Enter minimum a {PASSWORD_LENGTH} digit password"
+    get user_password
+  return len(user_password)
+
+function print_asterisk(user_password)
+  display ("*" * user_password)
+"""
+
 PASSWORD_LENGTH = 4
 
 
